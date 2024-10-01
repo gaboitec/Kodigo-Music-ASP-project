@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+*{
+    font-size: 22px;
+    font-family: Fredoka, sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #101010 !important;
+}
+
+.sidebar{
+    color: white;
+    position: fixed;
+}
+
+.sidebar a{
+    color: white;
+}
+
+.sidebar .btn-sidebar{
+    width: 80%;
+    border-radius: 40px;
+}
+
+.sidebar .btn-sidebar:hover{
+    border-color: white;
+}
+.sidebar .card .btn-sidebar:hover{
+    border-color: black;
+}
+
+.sidebar .card{
+    background-color: #c0c0c0;
+}
+
+.contenido{
+    margin-left: auto;
+    border-left: solid;
+    border-color: #404040;
+}
+
+header{
+    border-bottom: solid;
+    border-color: #404040;
+}
+
+header .browser{
+    width: 70%;
+    margin: 0 auto;
+}
+
+header .btn{
+    border-radius: 40px;
+    color: #fff;
+    border-color: #c0c0c0;
+}
+
+header .form-control{
+    border-radius: 40px;
+    background-color: #e0e0e0;
+    border-style: none;
+}
+
+
+.featured-artists .album img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+.album {
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+}
+
+.album p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.fast-selection img{
+    width: 80px;
+    height: 80px;
+}
+
+.new-releases img{
+    width: 80px;
+    height: 80px;
+}
+
+main a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer{
+    width: 100%;
+    border-top: solid;
+    border-color: #404040;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
