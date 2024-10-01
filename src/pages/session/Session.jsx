@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import {Login} from './components/Login';
 import {Signup} from './components/Signup';
+import '../../assets/CSS/session.css'
 
 export const Session = () => {
     const [cambiarForm, setForm] = useState("Signup");
@@ -9,7 +10,7 @@ export const Session = () => {
     function setearForm(){
         if(cambiarForm === "Login"){
             setForm("Signup"); 
-            setTexto("Nuevo por aquí?, crea una cuenta!")
+            setTexto("Nuevo por aquí?, crea una cuenta!...")
         }else{
             setForm("Login");
             setTexto("Bienvenido de vuelta!, si ya tienes cuenta inicia session...")
@@ -18,13 +19,12 @@ export const Session = () => {
     
     return(
         <>
-            <div className='card row'>
-                <section className='col-6'>
-                    <p>{texto}</p>
-                    <button onClick={setearForm}>{cambiarForm}</button>
-                </section>
-                <section className='col-6'>
+            <div className='card sign'>
+                <section className='session'>
                     {cambiarForm === "Login" ? <Signup /> : <Login />}
+                </section>
+                <section className='set'>
+                    <p>{texto} <span className='setForm' onClick={setearForm}>{cambiarForm}</span></p>
                 </section>
             </div>
         </>

@@ -1,0 +1,37 @@
+body{
+    min-height: 100vh;
+}
+
+.sign{
+    padding: 1rem;
+    border-radius: 20px;
+    margin: 50px 200px 0 200px;
+    text-align: center;
+}
+
+.i{
+    width: 50%;
+    border-radius: 20px;
+}
+
+.btn-send{
+    border-radius: 20px;
+    background-color: #c0c0c0;
+    margin-top: 2rem;
+}
+
+.btn-send:hover{
+    border-color: black;
+}
+
+.set{
+    margin-top: 2rem;
+}
+
+.set .setForm{
+    color:blue;
+}
+
+.set .setForm:hover{
+    cursor: pointer;
+}

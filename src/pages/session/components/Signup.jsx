@@ -36,22 +36,22 @@ export const Signup = () => {
         <>
             <form onSubmit={handleSubmit(onSubmitForm)}>
                 <h1>Crear Cuenta</h1>
-                <section>
-                    <label htmlFor="email">Email</label>
+                <section className='row'>
                     <p style={{color:"red"}}>{errors.email && errors.email.message}</p>
-                    <input type="email" id="email" placeholder='ejemplo@correo.com' {...register('email')} />
+                    <label className='col-4' htmlFor="email">Email</label>
+                    <input className='form-control col-8 i' type="email" id="email" placeholder='ejemplo@correo.com' {...register('email')} />
                 </section>
-                <section>
-                    <label htmlFor="password">Contraseña</label>
+                <section className='row'>
                     <p style={{color:"red"}}>{errors.password && errors.password.message}</p>
-                    <input type="password" id="password" placeholder='a1b2c3d4' {...register('password')} />
+                    <label className='col-4' htmlFor="password">Contraseña</label>
+                    <input className='form-control col-8 i' type="password" id="password" placeholder='a1b2c3d4' {...register('password')} />
                 </section>
-                <section>
-                    <label htmlFor="confirmPassword">Confirmar Contraseña</label>
+                <section className='row'>
                     <p style={{color:"red"}}>{errors.confirmPassword && errors.confirmPassword.message}</p>
-                    <input type="password" id="confirmPassword" {...register('confirmPassword')} />
+                    <label className='col-4' htmlFor="confirmPassword">Confirmar Contraseña</label>
+                    <input className='form-control col-8 i' type="password" id="confirmPassword" {...register('confirmPassword')} />
                 </section>
-                <button type='submit'>Crear cuenta</button>
+                <button className='btn btn-send' type='submit'>Crear cuenta</button>
             </form>
         </>
     )

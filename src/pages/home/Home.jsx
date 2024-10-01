@@ -47,17 +47,17 @@ export const Home = () => {
                 </section>
                 <div className="col-10 contenido text-light">
                     <header className="header row p-2">
-                        <section className="col-9">
+                        <section className="col-7">
                             <form className="d-flex browser" role="search">
                                 <input className="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search" />
                                 <button className="btn btn-outline-success" type="submit">Search</button>
                             </form>
                         </section>
                         {data?
-                            <section className="col-3 text-end">
+                            <section className="col-5 text-end">
                                 <h4>{data.email}</h4>
                             </section>:
-                            <section className="col-3 text-end">
+                            <section className="col-5 text-end">
                                 <Link to={'/session'}><button className="btn btn-dark">Iniciar sesion</button></Link>
                             </section>
                         }
@@ -74,8 +74,8 @@ export const Home = () => {
                                                 <img src="https://plus.unsplash.com/premium_photo-1682125291930-1427e5d80e5b?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Álbum 1 " />
                                             </div>
                                             <div className="col-7 mx-4">
-                                                <h6>Canción</h6>
-                                                <span>Artista</span>
+                                                <h6>Ecos del amanecer</h6>
+                                                <span>Luz de luna</span>
                                             </div>
                                         </a>
                                     </div>
@@ -85,8 +85,8 @@ export const Home = () => {
                                                 <img src="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Álbum 1 " />
                                             </div>
                                             <div className="col-7 mx-4">
-                                                <h6>Canción</h6>
-                                                <span>Artista</span>
+                                                <h6>Caminos inexplorados</h6>
+                                                <span>Viento del norte</span>
                                             </div>
                                         </a>
                                     </div>
@@ -96,8 +96,8 @@ export const Home = () => {
                                                 <img src="https://plus.unsplash.com/premium_photo-1682125291930-1427e5d80e5b?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Álbum 1 " />
                                             </div>
                                             <div className="col-7 mx-4">
-                                                <h6>Canción</h6>
-                                                <span>Artista</span>
+                                                <h6>Susurros del mar</h6>
+                                                <span>Olas eternas</span>
                                             </div>
                                         </a>
                                     </div>
@@ -109,8 +109,8 @@ export const Home = () => {
                                                 <img src="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Álbum 1 " />
                                             </div>
                                             <div className="col-7 mx-4">
-                                                <h6>Canción</h6>
-                                                <span>Artista</span>
+                                                <h6>Sombras del horizonte</h6>
+                                                <span>Corazón de fuego</span>
                                             </div>
                                         </a>
                                     </div>
@@ -120,8 +120,8 @@ export const Home = () => {
                                                 <img src="https://plus.unsplash.com/premium_photo-1682125291930-1427e5d80e5b?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Álbum 1 " />
                                             </div>
                                             <div className="col-7 mx-4">
-                                                <h6>Canción</h6>
-                                                <span>Artista</span>
+                                                <h6>Estrellas fugaces</h6>
+                                                <span>Aurora boreal</span>
                                             </div>
                                         </a>
                                     </div>
@@ -131,8 +131,8 @@ export const Home = () => {
                                                 <img src="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Álbum 1 " />
                                             </div>
                                             <div className="col-7 mx-4">
-                                                <h6>Canción</h6>
-                                                <span>Artista</span>
+                                                <h6>Sueños de media noche</h6>
+                                                <span>Luna y los astros</span>
                                             </div>
                                         </a>
                                     </div>
@@ -144,8 +144,8 @@ export const Home = () => {
                                                 <img src="https://plus.unsplash.com/premium_photo-1682125291930-1427e5d80e5b?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Álbum 1 " />
                                             </div>
                                             <div className="col-7 mx-4">
-                                                <h6>Canción</h6>
-                                                <span>Artista</span>
+                                                <h6>Ritmos del corazón</h6>
+                                                <span>Sombra azúl</span>
                                             </div>
                                         </a>
                                     </div>
@@ -155,8 +155,8 @@ export const Home = () => {
                                                 <img src="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Álbum 1 " />
                                             </div>
                                             <div className="col-7 mx-4">
-                                                <h6>Canción</h6>
-                                                <span>Artista</span>
+                                                <h6>Melodías del bosque</h6>
+                                                <span>Noche estrellada</span>
                                             </div>
                                         </a>
                                     </div>
@@ -166,8 +166,8 @@ export const Home = () => {
                                                 <img src="https://plus.unsplash.com/premium_photo-1682125291930-1427e5d80e5b?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Álbum 1 " />
                                             </div>
                                             <div className="col-7 mx-4">
-                                                <h6>Canción</h6>
-                                                <span>Artista</span>
+                                                <h6>Corazón del sol</h6>
+                                                <span>Fénix renacido</span>
                                             </div>
                                         </a>
                                     </div>
@@ -183,7 +183,7 @@ export const Home = () => {
                                     </article>
                                     <article className="album col">
                                         <img src="https://randomuser.me/api/portraits/men/51.jpg" alt="Álbum 2" />
-                                        <p className="text-light">Sobra Azul</p>
+                                        <p className="text-light">Sombra Azul</p>
                                     </article>
                                     <article className="album col">
                                         <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="Álbum 3" />
@@ -227,45 +227,45 @@ export const Home = () => {
                                 <div className="row mb-2">
                                     <article className="album col">
                                         <img src="https://images.unsplash.com/photo-1711054824441-064a99073a0b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fFBvcnRhZGElMjBkZSUyMCVDMyVBMWxidW18ZW58MHx8MHx8fDA%3D" alt="Álbum 1" />
-                                        <p className="text-light">Artista 1 - Canción 1</p>
+                                        <p className="text-light">Viaje galáctico</p>
                                     </article>
                                     <article className="album col">
                                         <img src="https://plus.unsplash.com/premium_photo-1682125291930-1427e5d80e5b?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Álbum 2" />
-                                        <p className="text-light">Artista 2 - Canción 2</p>
+                                        <p className="text-light">Raices del alma</p>
                                     </article>
                                     <article className="album col">
                                         <img src="https://images.unsplash.com/photo-1711054824441-064a99073a0b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fFBvcnRhZGElMjBkZSUyMCVDMyVBMWxidW18ZW58MHx8MHx8fDA%3D" alt="Álbum 3" />
-                                        <p className="text-light">Artista 3 - Canción 3</p>
+                                        <p className="text-light">Ecos del pasado</p>
                                     </article>
                                     <article className="album col">
                                         <img src="https://plus.unsplash.com/premium_photo-1682125291930-1427e5d80e5b?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Álbum 2" />
-                                        <p className="text-light">Artista 2 - Canción 2</p>
+                                        <p className="text-light">Caminos de cristal</p>
                                     </article>
                                     <article className="album col">
                                         <img src="https://images.unsplash.com/photo-1711054824441-064a99073a0b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fFBvcnRhZGElMjBkZSUyMCVDMyVBMWxidW18ZW58MHx8MHx8fDA%3D" alt="Álbum 3" />
-                                        <p className="text-light">Artista 3 - Canción 3</p>
+                                        <p className="text-light">Ritmos de asfalto</p>
                                     </article>
                                 </div>
                                 <div className="row">
                                     <div className="album col">
                                         <img src="https://plus.unsplash.com/premium_photo-1682125291930-1427e5d80e5b?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dg" alt="Álbum 1" />
-                                        <p className="text-light">Artista 1 - Canción 1</p>
+                                        <p className="text-light">Susurros del viento</p>
                                     </div>
                                     <div className="album col">
                                         <img src="https://images.unsplash.com/photo-1711054824441-064a99073a0b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fFBvcnRhZGElMjBkZSUyMCVDMyVBMWxidW18ZW58MHx8MHx8fDA%3D" alt="Álbum 2" />
-                                        <p className="text-light">Artista 2 - Canción 2</p>
+                                        <p className="text-light">Sombras y luces</p>
                                     </div>
                                     <div className="album col">
                                         <img src="https://plus.unsplash.com/premium_photo-1682125291930-1427e5d80e5b?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Álbum 3" />
-                                        <p className="text-light">Artista 3 - Canción 3</p>
+                                        <p className="text-light">Reflejos del amanecer</p>
                                     </div>
                                     <div className="album col">
                                         <img src="https://images.unsplash.com/photo-1711054824441-064a99073a0b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fFBvcnRhZGElMjBkZSUyMCVDMyVBMWxidW18ZW58MHx8MHx8fDA%3D" alt="Álbum 2" />
-                                        <p className="text-light">Artista 2 - Canción 2</p>
+                                        <p className="text-light">Latidos del corazón</p>
                                     </div>
                                     <div className="album col">
                                         <img src="https://plus.unsplash.com/premium_photo-1682125291930-1427e5d80e5b?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Álbum 3" />
-                                        <p className="text-light">Artista 3 - Canción 3</p>
+                                        <p className="text-light">Horizontes inexplorados</p>
                                     </div>
                                 </div>
                             </section>
@@ -279,8 +279,8 @@ export const Home = () => {
                                                 <img src="https://images.unsplash.com/photo-1711054824441-064a99073a0b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fFBvcnRhZGElMjBkZSUyMCVDMyVBMWxidW18ZW58MHx8MHx8fDA%3D" alt="Álbum 1 " />
                                             </div>
                                             <div className="col-7 mx-4">
-                                                <h6>Canción</h6>
-                                                <span>Artista</span>
+                                                <h6>Reir</h6>
+                                                <span>Rigo</span>
                                             </div>
                                         </a>
                                     </div>
@@ -290,8 +290,8 @@ export const Home = () => {
                                                 <img src="https://images.unsplash.com/photo-1640533389873-ee8b68984ae4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fFBvcnRhZGElMjBkZSUyMCVDMyVBMWxidW18ZW58MHx8MHx8fDA%3D" alt="Álbum 1 " />
                                             </div>
                                             <div className="col-7 mx-4">
-                                                <h6>Canción</h6>
-                                                <span>Artista</span>
+                                                <h6>Monotonia</h6>
+                                                <span>Aurora boreal</span>
                                             </div>
                                         </a>
                                     </div>
@@ -301,8 +301,8 @@ export const Home = () => {
                                                 <img src="https://plus.unsplash.com/premium_photo-1682125291930-1427e5d80e5b?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Álbum 1 " />
                                             </div>
                                             <div className="col-7 mx-4">
-                                                <h6>Canción</h6>
-                                                <span>Artista</span>
+                                                <h6>Un adiós</h6>
+                                                <span>Sombra azúl</span>
                                             </div>
                                         </a>
                                     </div>
@@ -314,8 +314,8 @@ export const Home = () => {
                                                 <img src="https://plus.unsplash.com/premium_photo-1681426298260-d0326427d7e0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fFBvcnRhZGElMjBkZSUyMCVDMyVBMWxidW18ZW58MHx8MHx8fDA%3D" alt="Álbum 1 " />
                                             </div>
                                             <div className="col-7 mx-4">
-                                                <h6>Canción</h6>
-                                                <span>Artista</span>
+                                                <h6>Esperar</h6>
+                                                <span>Fénix renacido</span>
                                             </div>
                                         </a>
                                     </div>
@@ -325,8 +325,8 @@ export const Home = () => {
                                                 <img src="https://images.unsplash.com/photo-1640533389873-ee8b68984ae4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fFBvcnRhZGElMjBkZSUyMCVDMyVBMWxidW18ZW58MHx8MHx8fDA%3D" alt="Álbum 1 " />
                                             </div>
                                             <div className="col-7 mx-4">
-                                                <h6>Canción</h6>
-                                                <span>Artista</span>
+                                                <h6>Sin descanzo</h6>
+                                                <span>Corazón de fuego</span>
                                             </div>
                                         </a>
                                     </div>
@@ -336,8 +336,8 @@ export const Home = () => {
                                                 <img src="https://plus.unsplash.com/premium_photo-1682125291930-1427e5d80e5b?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Álbum 1 " />
                                             </div>
                                             <div className="col-7 mx-4">
-                                                <h6>Canción</h6>
-                                                <span>Artista</span>
+                                                <h6>Átomos</h6>
+                                                <span>Noche estrellada</span>
                                             </div>
                                         </a>
                                     </div>
@@ -349,8 +349,8 @@ export const Home = () => {
                                                 <img src="https://plus.unsplash.com/premium_photo-1682125291930-1427e5d80e5b?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Álbum 1 " />
                                             </div>
                                             <div className="col-7 mx-4">
-                                                <h6>Canción</h6>
-                                                <span>Artista</span>
+                                                <h6>Cantemos</h6>
+                                                <span>Viento del norte</span>
                                             </div>
                                         </a>
                                     </div>
@@ -360,8 +360,8 @@ export const Home = () => {
                                                 <img src="https://images.unsplash.com/photo-1640533389873-ee8b68984ae4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fFBvcnRhZGElMjBkZSUyMCVDMyVBMWxidW18ZW58MHx8MHx8fDA%3D" alt="Álbum 1 " />
                                             </div>
                                             <div className="col-7 mx-4">
-                                                <h6>Canción</h6>
-                                                <span>Artista</span>
+                                                <h6>Astroquímica</h6>
+                                                <span>Luna y los astros</span>
                                             </div>
                                         </a>
                                     </div>
@@ -371,8 +371,8 @@ export const Home = () => {
                                                 <img src="https://plus.unsplash.com/premium_photo-1681426298260-d0326427d7e0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fFBvcnRhZGElMjBkZSUyMCVDMyVBMWxidW18ZW58MHx8MHx8fDA%3D" alt="Álbum 1 " />
                                             </div>
                                             <div className="col-7 mx-4">
-                                                <h6>Canción</h6>
-                                                <span>Artista</span>
+                                                <h6>Gravedad</h6>
+                                                <span>Rayo del sol</span>
                                             </div>
                                         </a>
                                     </div>

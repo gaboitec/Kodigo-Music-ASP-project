@@ -47,7 +47,7 @@ header{
 }
 
 header .browser{
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -61,6 +61,7 @@ header .form-control{
     border-radius: 40px;
     background-color: #e0e0e0;
     border-style: none;
+    height: 55px;
 }
 
 
@@ -69,7 +70,6 @@ header .form-control{
     height: 150px;
     border-radius: 50%;
 }
-
 
 .album {
     text-align: center;
